@@ -410,7 +410,7 @@ justify-content: flex-end;
 }
 
 .infocontent {
-  max-width:80vw;
+  max-width:90vw;
   margin:auto;
   display:flex;
 
@@ -601,4 +601,11 @@ p.quote {
     height:100vh;
   }
 
+  .portfoliocontent{
+    margin-bottom:90px;
+  }
+
+  .infocontent{
+    padding-bottom: 90px;
+  }
 }
