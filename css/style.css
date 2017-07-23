@@ -594,3 +594,11 @@ p.quote {
   }
 
 }
+
+
+@media ( max-width:768px ) {
+  .firstsec {
+    height:100vh;
+  }
+
+}
