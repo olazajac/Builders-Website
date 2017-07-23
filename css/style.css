@@ -241,24 +241,24 @@ nav li a {
 
 nav li:nth-child(odd) a,
 body.fp-viewing-fifthSection-1 #menu li:nth-child(5) a {
-	background: #962D3E;
+	background: #cc3b35;
 }
 
 nav li:nth-child(even) a {
-	background: #aa3346;
+	background: #cc3b35;
 }
 
 nav li:nth-child(odd) a:hover {
-	background: #9e2f41;
+	background: #d64c47;
 }
 
 nav li:nth-child(even) a:hover {
-	background: #c53c52;
+	background: #d64c47;
 }
 
 nav li.active a,
 body.fp-viewing-fifthSection-1 #menu li:last-child a {
-  background: #453659;
+  background: #cc3b35;
 }
 
 @media (min-width: 1110px) {
