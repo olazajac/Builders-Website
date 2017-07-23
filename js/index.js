@@ -19,7 +19,7 @@ $('#fullpage').fullpage({
   slideSelector: '.horizontal-scrolling',
   navigation: true,
   slidesNavigation: true,
-  controlArrows: true,
+  controlArrows: false,
   anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection'],
   menu: '#menu',
 

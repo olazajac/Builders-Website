@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700);
-@import url('https://fonts.googleapis.com/css?family=Exo+2');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,600,700&subset=latin-ext');
 
 
 
@@ -454,19 +454,37 @@ p.quote {
 
 .portfoliocontent {
   max-width: 80vw;
-margin: auto;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
 }
 
 .portfolio {
   padding: 20px;
-margin: 5px;
-background-color: rgba(255, 255, 255, 0.43);
-max-width: 25%;
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.43);
+  max-width: 25%;
 
+}
+
+.portfolio a {
+  border: 1px solid #cc3b35;
+    padding: 5px;
+    color: #cc3b35;
+    font-weight:700;
+
+}
+
+.portfolio a:hover {
+    background: #cc3b35;
+    transition: 0.5s;
+    color: white;
+}
+
+.portfolio p {
+  margin-bottom:15px;
 }
 
 .portfolio img {
