@@ -317,7 +317,8 @@ section {
 h2 {
 	/*text-transform: lowercase;*/
 	font-size: 3em;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+  margin-top:10px;
 }
 
 h3 {
@@ -393,38 +394,6 @@ h3 {
 
 
 
-.redbox {
-  background-color:#cc3b35;
-  flex: 1;
-  margin-bottom: 10vh;
-  margin-right: 10vw;
-  padding: 30px;
-  max-width:40%;
-
-}
-
-.redbox p.first {
-
-  text-align: left;
-
-}
-
-.redbox p {
-  font-size:14px;
-}
-.redbox p.second {
-
-  text-align: left;
-    border-left: 5px solid black;
-    padding-left: 20px;
-    margin-top:15px;
-}
-
-.redbox h1 {
-  font-size:30px;
-  text-align: left;
-
-}
 
 .main {
   display: flex;
@@ -445,6 +414,7 @@ justify-content: flex-end;
   max-width:80vw;
   margin:auto;
   display:flex;
+
 }
 
 .step {
@@ -502,4 +472,94 @@ max-width: 25%;
 
 .portfolio img {
     max-width: 100%;
+}
+
+
+
+.redbox {
+  background-color:#cc3b35;
+  flex: 1;
+  margin-bottom: 10vh;
+  margin-right: 10vw;
+  padding: 30px;
+  max-width:40%;
+}
+
+
+
+.redbox p.first {
+
+  text-align: left;
+
+}
+
+.redbox p {
+  font-size:14px;
+}
+.redbox p.second {
+
+  text-align: left;
+    border-left: 5px solid black;
+    padding-left: 20px;
+    margin-top:15px;
+}
+
+.redbox h1 {
+  font-size:30px;
+  text-align: left;
+
+}
+
+
+
+
+@media (max-width: 500px) {
+  .redbox {
+    max-width:60%;
+    margin:auto;
+  }
+
+  .redbox p{
+    font-size:110%;
+  }
+
+  .portfolio {
+    padding:10px;
+    max-width:40%;
+  }
+
+  .portfolio h2 {
+    font-size:1.6em;
+    margin-top:10px;
+  }
+
+  .portfolio p {
+    display:none;
+  }
+
+  .infocontent {
+    max-width:90vw;
+
+  }
+
+  .step {
+    max-width:15vw;
+
+  }
+
+  .step p {
+    font-size:10px;
+
+  }
+
+  .step img {
+    max-width:100%;
+
+  }
+
+  .step h2 {
+    font-size:1.6em;
+  }
+
+
 }
