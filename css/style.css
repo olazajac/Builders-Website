@@ -162,16 +162,16 @@ h1 a {
 .toggle-menu i {
 	position: absolute;
 	display: block;
-	height: 2px;
-	background: white;
-	width: 30px;
+	height: 3px;
+	background: black;
+	width: 41px;
 	left: 10px;
 	-webkit-transition: all .3s;
 	        transition: all .3s;
 }
 
 .toggle-menu i:nth-child(1) {
-	top: 16px;
+	top: 12px;
 }
 
 .toggle-menu i:nth-child(2) {
@@ -179,7 +179,7 @@ h1 a {
 }
 
 .toggle-menu i:nth-child(3) {
-	top: 32px;
+	top: 36px;
 }
 
 .open-menu i:nth-child(1) {
@@ -562,5 +562,18 @@ max-width: 25%;
     font-size:1.6em;
   }
 
+  .invest {
+    max-height:75vh;
+    padding:20px;
+
+  }
+
+  .invest img {
+    display: none;
+  }
+
+  .invest p {
+    font-size: 1.6em;
+  }
 
 }
