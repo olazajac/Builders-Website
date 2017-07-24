@@ -545,7 +545,7 @@ p.quote {
 
   .portfolio {
     padding:10px;
-    max-width:35%;
+    max-width:39%;
   }
 
   .portfolio h2 {
@@ -558,7 +558,7 @@ p.quote {
   }
 
   .infocontent {
-    max-width:90vw;
+    max-width:80vw;
 
   }
 
@@ -574,7 +574,7 @@ p.quote {
   }
 
   .step img {
-    max-width:100%;
+    max-width:60px;
 
   }
 
